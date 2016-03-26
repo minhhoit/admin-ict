@@ -135,7 +135,7 @@ if (!function_exists('vtict_pnote_admin'))
 if(!function_exists('vtict_admin_footer'))
 {
     function vtict_admin_footer(){
-        echo '<span id="footer-thankyou">Thank you for creating with <a href="http://wordpress.org/">WordPress</a>. This theme developed by <a href="http://vungtauict.com/">Minh Ho</a>.</span>';
+        echo '<span id="footer-thankyou">Thank you for creating. This theme developed by <a href="http://vungtauict.com/">Andrew Ho</a>.</span>';
     }
     add_filter('admin_footer_text', 'vtict_admin_footer');
 }

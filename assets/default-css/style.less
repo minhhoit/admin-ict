@@ -6,10 +6,9 @@
 @import "variable.less";
 html, body, div, span, applet, object, iframe, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video, input {
     font-family: 'Source Sans Pro','Helvetica Neue',Helvetica,Arial,sans-serif;
-    unicode-bidi: embed;
-    outline: none !important;
-    box-shadow: none !important;
-    border-radius: 0 !important;
+    font-size: 13px;
+    line-height: 1.42857143;
+    color: #333;
 }
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Source Sans Pro','Helvetica Neue',Helvetica,Arial,sans-serif !important;
@@ -46,6 +45,10 @@ a.widget-control-remove,
 .row-actions span.delete a, .row-actions span.spam a, .row-actions span.trash a, .submitbox .submitdelete,
 .welcome-panel .welcome-panel-close{
     color:red;
+}
+a.row-title {
+    font-size: 13px !important;
+    font-weight: 400;
 }
 /* Forms */
 input[type=checkbox]:checked:before {
@@ -143,6 +146,12 @@ strong .post-com-count:after {
 strong .post-com-count span {
     background-color: #aa9d88;
 }
+.wp-menu-open {
+    .wp-menu-name {
+        color: #fff;
+    }
+}
+#footer-upgrade, #screen-meta-links {display: none}
 /* Admin Menu */
 #adminmenuback,
 #adminmenuwrap,
