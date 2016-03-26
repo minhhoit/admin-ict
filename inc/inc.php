@@ -62,7 +62,7 @@ if(!function_exists('vtict_admin_styles'))
         if (is_admin() || vtict_is_login_page()) {
             wp_register_style( $wp_vtict_plugin['slug'], $wp_vtict_plugin['url'] . 'assets/default-css/style.css','',$wp_vtict_plugin['version'] );
         }
-        wp_register_style( $wp_vtict_plugin['slug'].'_admin_bar', $wp_vtict_plugin['url']. 'assets/default-css/c6_admin.css','', $wp_vtict_plugin['version'] );
+        wp_register_style( $wp_vtict_plugin['slug'].'_admin_bar', $wp_vtict_plugin['url']. 'assets/default-css/admin-style.css','', $wp_vtict_plugin['version'] );
 
         wp_enqueue_style( $wp_vtict_plugin['slug']);
         wp_enqueue_style($wp_vtict_plugin['slug'].'_admin_bar');
