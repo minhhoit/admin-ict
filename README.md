@@ -1,3 +1,4 @@
+# admin.ict
 This plugin for the wordpress template v3.x+
 
 Introduction
